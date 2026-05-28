@@ -1,0 +1,32 @@
+aid: transport-for-sweden
+name: Transport for Sweden
+description: "Public Transport consumer"
+url: https://www.trafiklab.se/api
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Transportation"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Transportation
+  - Public APIs
+apis:
+  - name: Transport for Sweden
+    description: "Public Transport consumer"
+    humanURL: https://www.trafiklab.se/api
+    baseURL: https://www.trafiklab.se/api
+    tags:
+      - Transportation
+    properties:
+      - type: Documentation
+        url: https://www.trafiklab.se/api
+common:
+  - type: Website
+    url: https://www.trafiklab.se/api
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
