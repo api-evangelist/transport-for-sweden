@@ -39,7 +39,6 @@ apis:
   - name: Transport for Sweden
     description: "Public Transport consumer"
     humanURL: https://www.trafiklab.se/api
-    baseURL: https://www.trafiklab.se/api
     tags:
       - Transportation
     properties:
